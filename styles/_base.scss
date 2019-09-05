@@ -2,68 +2,81 @@ $font-stack: 'IBM Plex Mono', Consolas, Monaco, Courier, monospace;
 $font-size: 10px;
 
 html {
-    width: 60%;
-    margin: 10em auto;
+  width: 60%;
+  margin: 10em auto;
 }
 
 html, body {
-    font-family: $font-stack;
-    font-weight: 300;
-    font-size: $font-size;
+  font-family: $font-stack;
+  font-weight: 300;
+  font-size: $font-size;
 }
 
 .path {
-    font-weight: 400;
-    font-size: $font-size;
-    color: $gray-400;
-    line-height: 1.2 * $font-size;
-    padding-bottom: 1.5 * $font-size;
+  font-weight: 400;
+  font-size: 1.2 * $font-size;
+  line-height: 0.5 * $font-size;
+  color: $gray-400;
+  background-color: $white;
+  padding-bottom: 1.5 * $font-size;
+
+  em {
+    font-weight: 700;
+    font-style: normal;
+    color: $black;
+  }
+  
+  a {
+    color: $black;
+    text-decoration: underline;
     
-    em {
-        font-style: normal;
-        color: $blue;
+    &:hover {
+      color: $blue;
     }
+  }
 }
 
 .copy {
-    font-weight: 400;
-    font-size: 2 * $font-size;
-    line-height: 2.5 * $font-size;
-    
-    a {
-        font-weight: 700;
-        text-decoration: underline;
-        color: $black;
-        
-        &:hover {
-            color: $blue;
-        }
+  font-weight: 400;
+  font-size: 2 * $font-size;
+  line-height: 2.5 * $font-size;
+
+  a {
+    font-weight: 700;
+    text-decoration: underline;
+    color: $black;
+
+    &:hover {
+      color: $blue;
     }
+  }
 }
 
 nav {
+  background-color: $white;
+  padding-bottom: 1.5 * $font-size;
+
+  a {
     font-size: 1.2 * $font-size;
-    line-height: 0.5 * $font-size;
-    padding-bottom: 1.5* $font-size;
-    
-    a {
-        color: $black;
-        margin: 0 0 0 -1em;
-        
-        &:hover {
-            color: $blue;
-        }
+    line-height: $font-size;
+    text-decoration: underline;
+    color: $black;
+    margin: 0 0 0 -0.9em;
+
+    &:hover {
+      color: $blue;
     }
+  }
 }
 
 @media (max-width: 768px) {
-    html {
-        width: 95%;
-    }
+  html {
+    width: 95%;
+  }
 }
 
 @media (max-width: 992px) {
-    html {
-        width: 80%;
-    }
+  html {
+    width: 80%;
+  }
 }
