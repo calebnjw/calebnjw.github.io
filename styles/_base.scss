@@ -1,24 +1,56 @@
-$font: 'IBM Plex Mono', Consolas, Monaco, Courier, monospace;
+$font-stack: 'IBM Plex Mono', Consolas, Monaco, Courier, monospace;
+$font-size: 10px;
+
+html {
+    width: 50%;
+    margin: 10em auto;
+}
 
 html, body {
-    font-family: $font;
+    font-family: $font-stack;
     font-weight: 300;
-    margin: 3% auto;
+    font-size: $font-size;
+}
+
+.path {
+    font-weight: 400;
+    font-size: $font-size;
+    color: $gray-400;
+    line-height: $font-size;
+    padding-bottom: 1 * $font-size;
+    
+    em {
+        font-style: normal;
+        color: $black;
+    }
 }
 
 .copy {
     font-weight: 400;
-    font-size: 36px;
-    line-height: 46px;
+    font-size: 2 * $font-size;
+    line-height: 2.5 * $font-size;
     
     a {
         font-weight: 700;
         text-decoration: underline;
         color: $black;
+        
+        &:hover {
+            color: $blue;
+        }
     }
 }
 
-nav .a {
-    font-size: 18px;
-    line-height: 23px;
+nav {
+    font-size: $font-size;
+    line-height: 0.5 * $font-size;
+    
+    a {
+        color: $black;
+        margin: 0 0 0 -1em;
+        
+        &:hover {
+            color: $blue;
+        }
+    }
 }

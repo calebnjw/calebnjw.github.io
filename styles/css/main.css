@@ -1539,7 +1539,7 @@ mark,
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #9fa5ad;
   pointer-events: none;
   cursor: default;
 }
@@ -1559,7 +1559,7 @@ mark,
   border-color: #e9ecef #e9ecef #dee2e6;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color: #9fa5ad;
   background-color: transparent;
   border-color: transparent;
 }
@@ -5735,21 +5735,53 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
+html {
+  width: 50%;
+  margin: 10em auto;
+}
+
 html, body {
   font-family: "IBM Plex Mono", Consolas, Monaco, Courier, monospace;
   font-weight: 300;
-  margin: 3% auto;
+  font-size: 10px;
+}
+
+.path {
+  font-weight: 400;
+  font-size: 10px;
+  color: #9fa5ad;
+  line-height: 10px;
+  padding-bottom: 10px;
+}
+.path em {
+  font-style: normal;
+  color: #000;
 }
 
 .copy {
   font-weight: 400;
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 20px;
+  line-height: 25px;
 }
 .copy a {
   font-weight: 700;
   text-decoration: underline;
   color: #000;
+}
+.copy a:hover {
+  color: #0062ff;
+}
+
+nav {
+  font-size: 10px;
+  line-height: 5px;
+}
+nav a {
+  color: #000;
+  margin: 0 0 0 -1em;
+}
+nav a:hover {
+  color: #0062ff;
 }
 
 /*# sourceMappingURL=main.css.map */
