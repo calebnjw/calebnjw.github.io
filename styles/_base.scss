@@ -2,7 +2,7 @@ $font-stack: 'IBM Plex Mono', Consolas, Monaco, Courier, monospace;
 $font-size: 10px;
 
 html {
-    width: 50%;
+    width: 60%;
     margin: 10em auto;
 }
 
@@ -16,12 +16,12 @@ html, body {
     font-weight: 400;
     font-size: $font-size;
     color: $gray-400;
-    line-height: $font-size;
-    padding-bottom: 1 * $font-size;
+    line-height: 1.2 * $font-size;
+    padding-bottom: 1.5 * $font-size;
     
     em {
         font-style: normal;
-        color: $black;
+        color: $blue;
     }
 }
 
@@ -42,8 +42,9 @@ html, body {
 }
 
 nav {
-    font-size: $font-size;
+    font-size: 1.2 * $font-size;
     line-height: 0.5 * $font-size;
+    padding-bottom: 1.5* $font-size;
     
     a {
         color: $black;
@@ -52,5 +53,17 @@ nav {
         &:hover {
             color: $blue;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        width: 80%;
     }
 }

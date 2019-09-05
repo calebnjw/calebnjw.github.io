@@ -5736,7 +5736,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 html {
-  width: 50%;
+  width: 60%;
   margin: 10em auto;
 }
 
@@ -5750,12 +5750,12 @@ html, body {
   font-weight: 400;
   font-size: 10px;
   color: #9fa5ad;
-  line-height: 10px;
-  padding-bottom: 10px;
+  line-height: 12px;
+  padding-bottom: 15px;
 }
 .path em {
   font-style: normal;
-  color: #000;
+  color: #0062ff;
 }
 
 .copy {
@@ -5773,8 +5773,9 @@ html, body {
 }
 
 nav {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 5px;
+  padding-bottom: 15px;
 }
 nav a {
   color: #000;
@@ -5782,6 +5783,17 @@ nav a {
 }
 nav a:hover {
   color: #0062ff;
+}
+
+@media (max-width: 768px) {
+  html {
+    width: 95%;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
