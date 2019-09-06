@@ -5798,7 +5798,8 @@ nav a:hover {
 
 @media (max-width: 768px) {
   html {
-    width: 95%;
+    width: 100%;
+    margin: 3em auto;
   }
 }
 @media (max-width: 992px) {
