@@ -55,10 +55,10 @@ html, body {
 nav {
   background-color: $white;
   padding-bottom: 1.5 * $font-size;
+  font-size: 1.2 * $font-size;
+  line-height: $font-size;
 
   a {
-    font-size: 1.2 * $font-size;
-    line-height: $font-size;
     text-decoration: underline;
     color: $black;
     margin: 0 0 0 -0.9em;
