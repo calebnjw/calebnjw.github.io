@@ -5743,15 +5743,20 @@ html {
 html, body {
   font-family: "IBM Plex Mono", Consolas, Monaco, Courier, monospace;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+p {
+  padding-bottom: 0.3em;
 }
 
 .path {
   font-weight: 400;
-  line-height: 6px;
+  font-size: 12px;
+  line-height: 5px;
   color: #9fa5ad;
   background-color: #fff;
-  padding-bottom: 18px;
+  padding-bottom: 15px;
 }
 .path em {
   font-weight: 700;
@@ -5768,8 +5773,8 @@ html, body {
 
 .copy {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 25px;
 }
 .copy a {
   font-weight: 700;
@@ -5782,9 +5787,18 @@ html, body {
 
 nav {
   background-color: #fff;
-  padding-bottom: 18px;
-  line-height: 12px;
+  padding-bottom: 15px;
+  font-size: 12px;
+  line-height: 10px;
+}
+nav li {
   margin: 0 0 0 -0.9em;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+nav .nav-link {
+  display: block;
+  padding: 0;
 }
 nav a {
   text-decoration: underline;
