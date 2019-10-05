@@ -1,5 +1,5 @@
 $font-stack: 'IBM Plex Mono', Consolas, Monaco, Courier, monospace;
-$font-size: 10px;
+$font-size: 12px;
 
 html {
   width: 60%;
@@ -14,7 +14,7 @@ html, body {
 
 .path {
   font-weight: 400;
-  font-size: 1.2 * $font-size;
+//  font-size: 1.2 * $font-size;
   line-height: 0.5 * $font-size;
   color: $gray-400;
   background-color: $white;
@@ -55,7 +55,7 @@ html, body {
 nav {
   background-color: $white;
   padding-bottom: 1.5 * $font-size;
-  font-size: 1.2 * $font-size;
+//  font-size: 1.2 * $font-size;
   line-height: $font-size;
 
   a {
