@@ -5784,11 +5784,11 @@ nav {
   background-color: #fff;
   padding-bottom: 18px;
   line-height: 12px;
+  margin: 0 0 0 -0.9em;
 }
 nav a {
   text-decoration: underline;
   color: #000;
-  margin: 0 0 0 -0.9em;
 }
 nav a:hover {
   color: #0062ff;

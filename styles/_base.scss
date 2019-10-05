@@ -57,11 +57,11 @@ nav {
   padding-bottom: 1.5 * $font-size;
 //  font-size: 1.2 * $font-size;
   line-height: $font-size;
+  margin: 0 0 0 -0.9em;
 
   a {
     text-decoration: underline;
     color: $black;
-    margin: 0 0 0 -0.9em;
 
     &:hover {
       color: $blue;
