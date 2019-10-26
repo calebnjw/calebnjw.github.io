@@ -8,4 +8,4 @@ as a person, he is interested in design as a whole, but tends to focus more on t
 
 he was. and came out feeling rather defeated.
 
-this page was built with [Bootstrap](https://getbootstrap.com/) and [SASS](https://sass-lang.com/), and hosted on [GitHub](https://github.com/). the font used is [IBM Plex](https://www.ibm.com/plex/) Mono.</p>
+this site was built with [Jekyll](https://jekyllrb.com/), [Bootstrap](https://getbootstrap.com/) and [SASS](https://sass-lang.com/), and hosted on [GitHub](https://github.com/). the font used is [IBM Plex](https://www.ibm.com/plex/) Mono. 
