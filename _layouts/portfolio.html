@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <!-- fake breadcrumbs goes here -->
+        <div class="col">
+            <div class="path">users\<em><a href="/index.html">calebng</a></em></div>
+        </div>
+
+        <!-- column break -->
+        <div class="w-100"></div>
+
+        <!-- navigation bar goes here -->
+        {% include nav_portfolio.html %}
+
+        <!-- main body container -->
+        <div class="col-sm-12 col-md-10">
+          <!-- main big text content goes here -->
+          <div>
+            {{ content }}
+          </div>
+
+          <!-- secondary / scroll content goes here -->
+          <div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  {% include footer.html%}
+
+  </body>
+</html>

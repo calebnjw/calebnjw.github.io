@@ -1,1 +1,6 @@
 _site/
+assets/files/
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

@@ -1,0 +1,11 @@
+<!-- navigation bar -->
+<div class="col-sm-12 col-md-2">
+  <!-- horizontal when screen is narrow, vertical when wide -->
+  <nav class="nav flex-lg-column">
+    {% for category in site.categories %}
+    <li class="nav-item">
+      <a href="{{ category[0] }}" class="nav-link">{{ category[0] | lowercase }}</a>
+    </li>
+    {% endfor %}
+  </nav>
+</div>
