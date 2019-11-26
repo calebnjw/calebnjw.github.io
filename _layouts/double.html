@@ -16,19 +16,19 @@
         <div class="w-100"></div>
 
         <!-- navigation bar goes here -->
-        {% include nav_portfolio.html %}
+        {% include nav.html %}
 
         <!-- main body container -->
-        <div class="col-sm-12 col-md-10">
-          <!-- main big text content goes here -->
-          <div>
+        <div class="col-sm-12 col-lg-9">
+          <!-- main content goes here -->
+          <div class="copy">
             {{ content }}
           </div>
 
           <!-- secondary / scroll content goes here -->
-          <div>
-          </div>
+          {% include portfolio_content.html %}
         </div>
+
       </div>
     </div>
 

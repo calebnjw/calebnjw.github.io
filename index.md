@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: double
 title: caleb ng — architecture and design
 ---
-caleb is a student of design. he studied [architecture](https://instagram.com/calebnjw) at the singapore university of technology of design, and pursues his interest in [graphic design](https://instagram.com/calebnjw). he also [draws](https://instagram.com/calebnjw) and takes [photos](https://instagram.com/calebnjw).
+this site is a work in progress, but you can view my portfolio by clicking on the link in the menu. 

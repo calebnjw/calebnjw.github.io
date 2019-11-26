@@ -5042,13 +5042,13 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  min-height: 75vh;
+  min-height: 70vh;
   padding-bottom: 60px; }
   .copy a {
     font-weight: 600; }
 
 .card {
-  margin-bottom: 2em; }
+  margin-bottom: 3em; }
 
 nav {
   background-color: #fff;
@@ -5064,10 +5064,16 @@ nav {
     padding: 0; }
 
 @media (max-width: 768px) {
+  .show-on-desktop, .hide-on-mobile {
+    display: none; }
+
   html {
-    width: 100%;
+    width: 95%;
     margin: 3em auto; } }
-@media (max-width: 992px) {
+@media (min-width: 768px) {
+  .hide-on-desktop, .show-on-mobile {
+    display: none; }
+
   html {
     width: 80%; } }
 

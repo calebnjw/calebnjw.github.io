@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <!-- fake breadcrumbs goes here -->
+        <div class="col">
+            <div class="path">users\<em><a href="/index.html">calebng</a></em></div>
+        </div>
+
+        <!-- column break -->
+        <div class="w-100"></div>
+
+        <!-- navigation bar goes here -->
+        {% include nav.html %}
+
+        <!-- main body container -->
+        <div class="col-sm-12 col-lg-9">
+          <!-- main content goes here -->
+          {{ content }}
+        </div>
+
+      </div>
+    </div>
+
+  {% include footer.html%}
+
+  </body>
+</html>

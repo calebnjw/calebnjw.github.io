@@ -1,0 +1,21 @@
+<div>
+{% if site.works %}
+  <!-- <p> true </p> -->
+  <div class="row">
+    {% for work in site.works %}
+    <div class="col-sm-12 col-md-6 d-flex align-items-stretch">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ work.title }}</h5>
+          <p class="card-subtitle">{{ work.date | date_to_string }}</p>
+          <p class="card-text">{{ work.excerpt }}</p>
+          <a href="{{work.url}}" class="btn btn-outline-primary">read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>there are no works to display right now. please come back in a while. </p>
+{% endif %}
+</div>

@@ -47,7 +47,7 @@ a {
   font-weight: 400;
   font-size: 2 * $font-size;
   line-height: 2.5 * $font-size;
-  min-height: 75vh;
+  min-height: 70vh;
   padding-bottom: 5 * $font-size;
 
   a {
@@ -56,7 +56,7 @@ a {
 }
 
 .card {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 nav {
@@ -87,13 +87,21 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .show-on-desktop, .hide-on-mobile {
+    display: none;
+  }
+
   html {
-    width: 100%;
+    width: 95%;
     margin: 3em auto;
   }
 }
 
-@media (max-width: 992px) {
+@media (min-width: 768px) {
+  .hide-on-desktop, .show-on-mobile {
+    display: none;
+  }
+
   html {
     width: 80%;
   }

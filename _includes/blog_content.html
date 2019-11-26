@@ -1,0 +1,21 @@
+<div>
+{% if site.posts %}
+  <!-- <p> true </p> -->
+  <div class="row">
+    {% for post in site.posts %}
+    <div class="col-sm-12 col-md-6 d-flex align-items-stretch">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-subtitle">{{ post.date | date_to_string }}</p>
+          <p class="card-text">{{ post.excerpt }}</p>
+          <a href="{{post.url}}" class="btn btn-outline-primary">read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>there's nothing to display.</p>
+{% endif %}
+</div>
