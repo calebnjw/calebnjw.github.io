@@ -2,7 +2,7 @@
 layout: single
 title: caleb ng — about
 ---
-caleb is a student of design. he graduated from the the singapore university of technology and design with a bachelor of science in [architecture](https://instagram.com/calebnjw) in 2019. caleb continues to pursue his interest in [graphic design](https://instagram.com/calebnjw), [illustration](https://instagram.com/calebnjw) and [photography](https://instagram.com/calebnjw).
+caleb is a student of design. he graduated from the the singapore university of technology and design with a bachelor of science in [architecture](https://instagram.com/calebnjw) in 2019. caleb continues to pursue his interests in [graphic design](https://instagram.com/calebnjw), [illustration](https://instagram.com/calebnjw) and [photography](https://instagram.com/calebnjw).
 
 he tends to focus more on the visual aspects of design, but chose architecture as his major, because he wanted to challenge himself.
 
