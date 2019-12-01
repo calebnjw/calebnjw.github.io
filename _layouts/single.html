@@ -7,9 +7,9 @@
     <div class="container">
       <div class="row">
 
-        <!-- fake breadcrumbs goes here -->
+        <!-- link home goes here -->
         <div class="col">
-            <div class="path">users\<em><a href="/index.html">calebng</a></em></div>
+            <div class="path"><em><a href="/index.html">calebng</a></em></div>
         </div>
 
         <!-- column break -->
@@ -19,17 +19,16 @@
         {% include nav.html %}
 
         <!-- main body container -->
-        <div class="col-sm-12 col-lg-9">
-          <!-- main content goes here -->
+        <main class="col-sm-12 col-lg-9">
           <div class="copy">
+            <!-- main content goes here -->
             {{ content }}
           </div>
-        </div>
 
+          <!-- not so sure footer should even be here... -->
+          {% include footer.html%}
+        </main>
       </div>
     </div>
-
-  {% include footer.html%}
-
   </body>
 </html>

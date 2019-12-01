@@ -12,58 +12,14 @@ html, body {
   font-size: $font-size;
 }
 
-p {
-  padding-bottom: 0.5 * $font-size;
-}
-
-a {
-  color: $black;
-  text-decoration: underline;
-  &:hover {
-    color: $blue;
-  }
-}
-
-.btn {
-  border-radius: 0;
-}
-
-.path {
-  font-weight: 300;
-  font-size: $font-size;
-  line-height: 0.5 * $font-size;
-  color: $gray-400;
-  background-color: $white;
-  padding-bottom: 1.5 * $font-size;
-
-  em {
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
-  }
-}
-
-.copy {
-  font-weight: 400;
-  font-size: 2 * $font-size;
-  line-height: 2.5 * $font-size;
-  min-height: 70vh;
-  padding-bottom: 5 * $font-size;
-
-  a {
-    font-weight: 600;
-  }
-}
-
-.card {
-  margin-bottom: 3em;
-}
-
 nav {
-  background-color: $white;
-  padding-bottom: 1.2 * $font-size;
   font-size: $font-size;
   line-height: 0.5 * $font-size;
+  background-color: $white;
+  display: block;
+  padding-bottom: 0.4 * $font-size;
+  position: fixed;
+  z-index: 1;
 
   li {
     margin: 0 0 0 -0.9em;
@@ -86,7 +42,66 @@ nav {
   // }
 }
 
-@media (max-width: 768px) {
+p {
+  padding-bottom: 0.5 * $font-size;
+}
+
+a {
+  color: $black;
+  text-decoration: underline;
+
+  &:hover {
+    color: $blue;
+    text-decoration: underline;
+  }
+}
+
+em {
+  color: $black;
+  font-weight: 600;
+  font-style: normal;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  background: $primary;
+
+  a {
+    color: $white;
+  }
+
+}
+
+.path {
+  font-size: $font-size;
+  line-height: 0.5 * $font-size;
+  color: $gray-400;
+  background-color: $white;
+  padding-bottom: 1.5 * $font-size;
+}
+
+.copy {
+  font-weight: 400;
+  font-size: 2 * $font-size;
+  line-height: 2.5 * $font-size;
+  min-height: 70vh;
+  padding-bottom: 5 * $font-size;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.card {
+  margin-bottom: 3em;
+}
+
+@media (max-width: 991px) {
   .show-on-desktop, .hide-on-mobile {
     display: none;
   }
@@ -95,9 +110,13 @@ nav {
     width: 95%;
     margin: 3em auto;
   }
+
+  main {
+    margin-top: 3em;
+  }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .hide-on-desktop, .show-on-mobile {
     display: none;
   }
