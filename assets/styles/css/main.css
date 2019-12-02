@@ -5047,9 +5047,7 @@ em {
     text-decoration: none; }
 
 .btn {
-  border: none;
-  border-radius: 0;
-  background: #0043ce; }
+  border-radius: 0; }
   .btn a {
     color: #fff; }
 
