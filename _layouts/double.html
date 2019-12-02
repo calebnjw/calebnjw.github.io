@@ -19,18 +19,20 @@
         {% include nav.html %}
 
         <!-- main body container -->
-        <main class="col-sm-12 col-lg-9">
-          <div class="copy">
-            <!-- main content goes here -->
-            {{ content }}
-          </div>
+        <div class="col-sm-12 col-lg-9">
+          <!-- main content goes here -->
+          <main>
+            <div class="copy">
+              {{ content }}
+            </div>
 
-          <!-- secondary / scroll content goes here -->
-          {% include portfolio_content.html %}
+            <!-- secondary / scroll content goes here -->
+            {% include portfolio_content.html %}
+          </main>
 
           <!-- not so sure footer should even be here... -->
           {% include footer.html%}
-        </main>
+        </div>
       </div>
     </div>
   </body>
