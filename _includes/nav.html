@@ -17,6 +17,14 @@
 
   <!-- horizontal when screen is narrow, vertical when wide -->
   <nav class="nav flex-lg-column">
+    <!-- link home goes here -->
+    <li class="nav-item">
+      <div class="home">
+        <em><a href="/index.html">calebng</a></em>
+      </div>
+    </li>
+
+    <!-- rest of the nav links are generated from nav.yml -->
     {% for item in site.data.nav %}
     <li class="nav-item">
       <a href="{{ item.link }}" class="nav-link">{{ item.name | lowercase }}</a>

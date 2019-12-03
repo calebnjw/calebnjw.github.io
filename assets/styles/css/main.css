@@ -5041,21 +5041,17 @@ a {
 
 em {
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal; }
-  em a {
-    text-decoration: none; }
 
 .btn {
   border-radius: 0; }
   .btn a {
     color: #fff; }
 
-.path {
+.home {
   line-height: 6px;
-  color: #9fa5ad;
-  background-color: #fff;
-  padding-bottom: 18px; }
+  padding-bottom: 12px; }
 
 .copy {
   font-weight: 400;
@@ -5064,12 +5060,12 @@ em {
   min-height: 70vh;
   padding-bottom: 60px; }
   .copy a {
-    font-weight: 600; }
+    font-weight: 500; }
 
 .card {
   margin-bottom: 3em; }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .show-on-desktop, .hide-on-mobile {
     display: none; }
 
